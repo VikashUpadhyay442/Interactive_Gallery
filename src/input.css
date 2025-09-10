@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.panel:not(.active){
+    @apply flex-[0.5] blur-[1px];
+}
+.active{
+    @apply flex-7;
+}
+.active h3{
+    @apply opacity-100 delay-300;
+}
