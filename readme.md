@@ -2,6 +2,8 @@
 
 A responsive image gallery with expandable cards, built using HTML, TailwindCSS, and Vanilla JavaScript.
 
+![Interactive Gallery Demo](assets/demo.gif)
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -10,7 +12,7 @@ A responsive image gallery with expandable cards, built using HTML, TailwindCSS,
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
--[Edits](#edits)
+- [Author](#author)
 
 ## Overview
 
