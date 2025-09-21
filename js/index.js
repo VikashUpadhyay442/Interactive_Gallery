@@ -1,6 +1,11 @@
 const panels=document.querySelectorAll(".panel");
 const len=panels.length;
 
+const initiallyActivePanel = document.querySelector('.panel.active');
+if (initiallyActivePanel) {
+    initiallyActivePanel.focus();
+}
+
 panels.forEach(panel=>{
     panel.addEventListener("click",event=>{
         activePanel(panel);
